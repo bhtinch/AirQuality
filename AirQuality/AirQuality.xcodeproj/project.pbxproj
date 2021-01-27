@@ -12,8 +12,6 @@
 		970B2FC8258A8B6B00B0EBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970B2FC6258A8B6B00B0EBCA /* Main.storyboard */; };
 		970B2FCA258A8B6C00B0EBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970B2FC9258A8B6C00B0EBCA /* Assets.xcassets */; };
 		970B2FCD258A8B6C00B0EBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970B2FCB258A8B6C00B0EBCA /* LaunchScreen.storyboard */; };
-		970B2FE0258A8BFF00B0EBCA /* AirQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970B2FDF258A8BFF00B0EBCA /* AirQuality.swift */; };
-		97C914DA25A4E5B200AA09DD /* AirQualityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C914D925A4E5B200AA09DD /* AirQualityController.swift */; };
 		97C914DF25A4E6EE00AA09DD /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C914DE25A4E6EE00AA09DD /* NetworkError.swift */; };
 		97C914E325A4F16200AA09DD /* CountryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C914E225A4F16200AA09DD /* CountryListTableViewController.swift */; };
 		97C914E725A4FEA200AA09DD /* StatesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C914E625A4FEA200AA09DD /* StatesListTableViewController.swift */; };
@@ -29,8 +27,6 @@
 		970B2FC9258A8B6C00B0EBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		970B2FCC258A8B6C00B0EBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		970B2FCE258A8B6C00B0EBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		970B2FDF258A8BFF00B0EBCA /* AirQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQuality.swift; sourceTree = "<group>"; };
-		97C914D925A4E5B200AA09DD /* AirQualityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityController.swift; sourceTree = "<group>"; };
 		97C914DE25A4E6EE00AA09DD /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		97C914E225A4F16200AA09DD /* CountryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListTableViewController.swift; sourceTree = "<group>"; };
 		97C914E625A4FEA200AA09DD /* StatesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesListTableViewController.swift; sourceTree = "<group>"; };
@@ -68,7 +64,6 @@
 		970B2FBF258A8B6B00B0EBCA /* AirQuality */ = {
 			isa = PBXGroup;
 			children = (
-				970B2FDC258A8BCE00B0EBCA /* Models */,
 				970B2FD9258A8BBC00B0EBCA /* Controllers */,
 				970B2FD7258A8BA200B0EBCA /* Views */,
 				97C914DD25A4E6DB00AA09DD /* Helpers and Extension */,
@@ -108,7 +103,6 @@
 		970B2FD9258A8BBC00B0EBCA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				970B2FDB258A8BC800B0EBCA /* ModelControllers */,
 				970B2FDA258A8BC100B0EBCA /* ViewControllers */,
 			);
 			path = Controllers;
@@ -123,22 +117,6 @@
 				97C914EC25A509C900AA09DD /* CityDataViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		970B2FDB258A8BC800B0EBCA /* ModelControllers */ = {
-			isa = PBXGroup;
-			children = (
-				97C914D925A4E5B200AA09DD /* AirQualityController.swift */,
-			);
-			path = ModelControllers;
-			sourceTree = "<group>";
-		};
-		970B2FDC258A8BCE00B0EBCA /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				970B2FDF258A8BFF00B0EBCA /* AirQuality.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		97C914DD25A4E6DB00AA09DD /* Helpers and Extension */ = {
@@ -222,9 +200,7 @@
 				97C914E325A4F16200AA09DD /* CountryListTableViewController.swift in Sources */,
 				970B2FC1258A8B6B00B0EBCA /* AppDelegate.swift in Sources */,
 				97C914EA25A5073E00AA09DD /* CitiesListTableViewController.swift in Sources */,
-				970B2FE0258A8BFF00B0EBCA /* AirQuality.swift in Sources */,
 				97C914E725A4FEA200AA09DD /* StatesListTableViewController.swift in Sources */,
-				97C914DA25A4E5B200AA09DD /* AirQualityController.swift in Sources */,
 				97C914ED25A509C900AA09DD /* CityDataViewController.swift in Sources */,
 				970B2FC3258A8B6B00B0EBCA /* SceneDelegate.swift in Sources */,
 				97C914DF25A4E6EE00AA09DD /* NetworkError.swift in Sources */,
