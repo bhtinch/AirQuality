@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		970B2FC1258A8B6B00B0EBCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970B2FC0258A8B6B00B0EBCA /* AppDelegate.swift */; };
+		970B2FC3258A8B6B00B0EBCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970B2FC2258A8B6B00B0EBCA /* SceneDelegate.swift */; };
+		970B2FC8258A8B6B00B0EBCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970B2FC6258A8B6B00B0EBCA /* Main.storyboard */; };
+		970B2FCA258A8B6C00B0EBCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970B2FC9258A8B6C00B0EBCA /* Assets.xcassets */; };
+		970B2FCD258A8B6C00B0EBCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970B2FCB258A8B6C00B0EBCA /* LaunchScreen.storyboard */; };
+		970B2FE0258A8BFF00B0EBCA /* AirQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970B2FDF258A8BFF00B0EBCA /* AirQuality.swift */; };
+		97C914DA25A4E5B200AA09DD /* AirQualityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C914D925A4E5B200AA09DD /* AirQualityController.swift */; };
+		97C914DF25A4E6EE00AA09DD /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C914DE25A4E6EE00AA09DD /* NetworkError.swift */; };
+		97C914E325A4F16200AA09DD /* CountryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C914E225A4F16200AA09DD /* CountryListTableViewController.swift */; };
+		97C914E725A4FEA200AA09DD /* StatesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C914E625A4FEA200AA09DD /* StatesListTableViewController.swift */; };
+		97C914EA25A5073E00AA09DD /* CitiesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C914E925A5073E00AA09DD /* CitiesListTableViewController.swift */; };
+		97C914ED25A509C900AA09DD /* CityDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C914EC25A509C900AA09DD /* CityDataViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		970B2FBD258A8B6B00B0EBCA /* AirQuality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirQuality.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		970B2FC0258A8B6B00B0EBCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		970B2FC2258A8B6B00B0EBCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		970B2FC7258A8B6B00B0EBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		970B2FC9258A8B6C00B0EBCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		970B2FCC258A8B6C00B0EBCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		970B2FCE258A8B6C00B0EBCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		970B2FDF258A8BFF00B0EBCA /* AirQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQuality.swift; sourceTree = "<group>"; };
+		97C914D925A4E5B200AA09DD /* AirQualityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQualityController.swift; sourceTree = "<group>"; };
+		97C914DE25A4E6EE00AA09DD /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		97C914E225A4F16200AA09DD /* CountryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListTableViewController.swift; sourceTree = "<group>"; };
+		97C914E625A4FEA200AA09DD /* StatesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesListTableViewController.swift; sourceTree = "<group>"; };
+		97C914E925A5073E00AA09DD /* CitiesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesListTableViewController.swift; sourceTree = "<group>"; };
+		97C914EC25A509C900AA09DD /* CityDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDataViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		970B2FBA258A8B6B00B0EBCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		970B2FB4258A8B6B00B0EBCA = {
+			isa = PBXGroup;
+			children = (
+				970B2FBF258A8B6B00B0EBCA /* AirQuality */,
+				970B2FBE258A8B6B00B0EBCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		970B2FBE258A8B6B00B0EBCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				970B2FBD258A8B6B00B0EBCA /* AirQuality.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		970B2FBF258A8B6B00B0EBCA /* AirQuality */ = {
+			isa = PBXGroup;
+			children = (
+				970B2FDC258A8BCE00B0EBCA /* Models */,
+				970B2FD9258A8BBC00B0EBCA /* Controllers */,
+				970B2FD7258A8BA200B0EBCA /* Views */,
+				97C914DD25A4E6DB00AA09DD /* Helpers and Extension */,
+				970B2FD5258A8B9600B0EBCA /* Resources */,
+			);
+			path = AirQuality;
+			sourceTree = "<group>";
+		};
+		970B2FD5258A8B9600B0EBCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				970B2FC0258A8B6B00B0EBCA /* AppDelegate.swift */,
+				970B2FC2258A8B6B00B0EBCA /* SceneDelegate.swift */,
+				970B2FC9258A8B6C00B0EBCA /* Assets.xcassets */,
+				970B2FCE258A8B6C00B0EBCA /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		970B2FD7258A8BA200B0EBCA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				970B2FD8258A8BB200B0EBCA /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		970B2FD8258A8BB200B0EBCA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				970B2FC6258A8B6B00B0EBCA /* Main.storyboard */,
+				970B2FCB258A8B6C00B0EBCA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		970B2FD9258A8BBC00B0EBCA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				970B2FDB258A8BC800B0EBCA /* ModelControllers */,
+				970B2FDA258A8BC100B0EBCA /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		970B2FDA258A8BC100B0EBCA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				97C914E225A4F16200AA09DD /* CountryListTableViewController.swift */,
+				97C914E625A4FEA200AA09DD /* StatesListTableViewController.swift */,
+				97C914E925A5073E00AA09DD /* CitiesListTableViewController.swift */,
+				97C914EC25A509C900AA09DD /* CityDataViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		970B2FDB258A8BC800B0EBCA /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				97C914D925A4E5B200AA09DD /* AirQualityController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		970B2FDC258A8BCE00B0EBCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				970B2FDF258A8BFF00B0EBCA /* AirQuality.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		97C914DD25A4E6DB00AA09DD /* Helpers and Extension */ = {
+			isa = PBXGroup;
+			children = (
+				97C914DE25A4E6EE00AA09DD /* NetworkError.swift */,
+			);
+			path = "Helpers and Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		970B2FBC258A8B6B00B0EBCA /* AirQuality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 970B2FD1258A8B6C00B0EBCA /* Build configuration list for PBXNativeTarget "AirQuality" */;
+			buildPhases = (
+				970B2FB9258A8B6B00B0EBCA /* Sources */,
+				970B2FBA258A8B6B00B0EBCA /* Frameworks */,
+				970B2FBB258A8B6B00B0EBCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirQuality;
+			productName = AirQuality;
+			productReference = 970B2FBD258A8B6B00B0EBCA /* AirQuality.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		970B2FB5258A8B6B00B0EBCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					970B2FBC258A8B6B00B0EBCA = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 970B2FB8258A8B6B00B0EBCA /* Build configuration list for PBXProject "AirQuality" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 970B2FB4258A8B6B00B0EBCA;
+			productRefGroup = 970B2FBE258A8B6B00B0EBCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				970B2FBC258A8B6B00B0EBCA /* AirQuality */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		970B2FBB258A8B6B00B0EBCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970B2FCD258A8B6C00B0EBCA /* LaunchScreen.storyboard in Resources */,
+				970B2FCA258A8B6C00B0EBCA /* Assets.xcassets in Resources */,
+				970B2FC8258A8B6B00B0EBCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		970B2FB9258A8B6B00B0EBCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C914E325A4F16200AA09DD /* CountryListTableViewController.swift in Sources */,
+				970B2FC1258A8B6B00B0EBCA /* AppDelegate.swift in Sources */,
+				97C914EA25A5073E00AA09DD /* CitiesListTableViewController.swift in Sources */,
+				970B2FE0258A8BFF00B0EBCA /* AirQuality.swift in Sources */,
+				97C914E725A4FEA200AA09DD /* StatesListTableViewController.swift in Sources */,
+				97C914DA25A4E5B200AA09DD /* AirQualityController.swift in Sources */,
+				97C914ED25A509C900AA09DD /* CityDataViewController.swift in Sources */,
+				970B2FC3258A8B6B00B0EBCA /* SceneDelegate.swift in Sources */,
+				97C914DF25A4E6EE00AA09DD /* NetworkError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		970B2FC6258A8B6B00B0EBCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				970B2FC7258A8B6B00B0EBCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		970B2FCB258A8B6C00B0EBCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				970B2FCC258A8B6C00B0EBCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		970B2FCF258A8B6C00B0EBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		970B2FD0258A8B6C00B0EBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		970B2FD2258A8B6C00B0EBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4L99CL288;
+				INFOPLIST_FILE = AirQuality/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Max-Poff.AirQuality";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		970B2FD3258A8B6C00B0EBCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4L99CL288;
+				INFOPLIST_FILE = AirQuality/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Max-Poff.AirQuality";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		970B2FB8258A8B6B00B0EBCA /* Build configuration list for PBXProject "AirQuality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				970B2FCF258A8B6C00B0EBCA /* Debug */,
+				970B2FD0258A8B6C00B0EBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		970B2FD1258A8B6C00B0EBCA /* Build configuration list for PBXNativeTarget "AirQuality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				970B2FD2258A8B6C00B0EBCA /* Debug */,
+				970B2FD3258A8B6C00B0EBCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 970B2FB5258A8B6B00B0EBCA /* Project object */;
+}
